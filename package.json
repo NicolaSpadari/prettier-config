@@ -1,6 +1,6 @@
 {
     "name": "@spada/prettier-config",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
     "author": "Nicola Spadari <spadari.nicola@gmail.com> (https://github.com/NicolaSpadari/)",
     "description": "My custom Prettier config for Typescript and Vue projects",
