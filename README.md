@@ -1,21 +1,18 @@
-# @spada/eslint-config
-
-> Based on @antfu/eslint-config with some tweaks
+# @spada/prettier-config
 
 ### Install
 
 ```bash
-npm i eslint @spada/eslint-config -D
+npm i eslint @spada/prettier-config -D
 ```
 
 <br>
 
-### `.eslintrc` file
+### `package.json` file
 
 ```json
 {
-	"extends": ["@spada/eslint-config"]
-	// More if needed
+	"prettier": "@spada/prettier-config"
 }
 ```
 
@@ -27,11 +24,7 @@ Add `.vscode/settings.json` with content:
 
 ```json
 {
-	"editor.formatOnSave": false,
-	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
-	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": true
-	},
-	"eslint.validate": ["javascript", "typescript", "vue", "html", "json"]
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
 }
 ```
