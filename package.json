@@ -1,0 +1,32 @@
+{
+    "name": "@spada/prettier-config",
+    "version": "0.0.1",
+    "license": "MIT",
+    "author": "Nicola Spadari <spadari.nicola@gmail.com> (https://github.com/NicolaSpadari/)",
+    "description": "My custom Prettier config for Typescript and Vue projects",
+    "keywords": [
+        "prettier",
+        "config",
+        "spada",
+        "lint"
+    ],
+    "scripts": {
+        "publish:patch": "npm version patch --no-git-tag-version && npm publish",
+        "publish:minor": "npm version minor --no-git-tag-version && npm publish",
+        "publish:major": "npm version major --no-git-tag-version && npm publish"
+    },
+    "files": [
+        "index.js"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NicolaSpadari/prettier-config.git"
+    },
+    "main": "index.js",
+    "peerDependencies": {
+        "prettier": ">=2.6.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
